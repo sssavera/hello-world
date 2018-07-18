@@ -41,5 +41,16 @@
       int main(){
        int a = 1;
        sum (&a);
-       }
-    
+       } 
+
+Программа
+   #include <stdio.h>
+   #include <iostream>
+
+   using namespace std;
+
+   int main (){
+       cout << "hello" << endl;
+
+   return 0;
+   }
