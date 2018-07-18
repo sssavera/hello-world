@@ -43,14 +43,15 @@
        sum (&a);
        } 
 
-Программа
-   #include <stdio.h>
-   #include <iostream>
+Программа.
 
-   using namespace std;
+      #include <stdio.h>
+      #include <iostream>
 
-   int main (){
-       cout << "hello" << endl;
+      using namespace std;
 
-   return 0;
-   }
+      int main (){
+          cout << "hello" << endl;
+
+      return 0;
+      }
