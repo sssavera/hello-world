@@ -51,7 +51,21 @@
       using namespace std;
 
       int main (){
-          cout << "hello" << endl;
+    
+      int a, x;
+      a = 10;
+    
+      cout << "Enter number - ";
+      cin >> x;
+    
+      if (x >= 10) {
+           a = a + x;
+      }
+      else {
+           a = a - x;
+      }
+    
+      cout << "hello " << a << " times" << endl;
 
       return 0;
-      }
+}
